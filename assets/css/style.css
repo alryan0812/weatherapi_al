@@ -1,0 +1,116 @@
+/* Tailwind css convertion below each of the css styled classes */
+/* body of the CSS attached file */
+
+/* import Tailwind CSS styles */
+/* @import "tailwindcss/base"; */
+/* @import "./custom-base-styles.css"; */
+
+/* @import 'tailwindcss/components'; */
+/* @import "./custom-components-styles.css"; */
+
+/* @import 'tailwindcss/utilities'; */
+/* @import "./custom-utilities-styles.css"; */
+
+/* @layer Base { */
+    /* #root { */
+        /* @apply some-styles; */
+    /* } */
+/* } */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background: white;
+    /* bg-gradient-to-r from-green-900 to-green-400 text-white rounded-3xl p-10; */
+    
+}
+
+.card {
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(150deg, #152a0ac4, #3bf241);
+    color:aliceblue;
+    margin: 100px auto 0;
+    border-radius: 50px;
+    padding: 40px 35px;
+    height: auto;
+    border-radius: 30px;
+    text-align: center;
+    /* bg-gradient-to-r from-green-900 to-green-400 text-white rounded-3xl p-10 */
+    
+    
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*  bg-green-900 rounded 3xl p-10 */
+}
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+    /* bg-green-900 rounded 3xl p-10 */
+    
+}
+
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}  
+.weather-icon {
+    width: 170px;
+    margin-top: 30px;
+}
+.weather h1 {
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10%;
+}
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+.col span {
+    font-size: 20px;
+    font-weight: 300;
+}
